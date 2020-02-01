@@ -8,7 +8,7 @@ def display_board(state=[" "," "," "," "," "," "," "," "," "])
 end
 
 def input_to_index(num)
-  return num.to_i -1
+  return num.to_i - 1
 end
 
 def valid_move?(board,index)
