@@ -10,3 +10,16 @@ end
 def input_to_index(num)
   return num.to_i -1
 end
+
+def valid_move?(board,index)
+  if board[index] == " "
+    return true
+  elsif board[index] == "X" || board[index] == "O"
+    return false
+  else 
+    return false
+  end
+end
+def move(board,index,oppo)
+  board[index] = oppo
+end
