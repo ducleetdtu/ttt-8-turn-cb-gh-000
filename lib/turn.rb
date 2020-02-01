@@ -6,3 +6,7 @@ def display_board(state=[" "," "," "," "," "," "," "," "," "])
   puts " #{state[6]} | #{state[7]} | #{state[8]} "
 
 end
+
+def input_to_index(num)
+  return num.to_i -1
+end
